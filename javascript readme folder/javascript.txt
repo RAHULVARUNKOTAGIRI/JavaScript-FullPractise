@@ -1,0 +1,5 @@
+1)Why is Javascript single threaded?
+2)what is Synchronus and Asynchronus programming?
+
+
+
