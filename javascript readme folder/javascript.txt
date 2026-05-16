@@ -2,4 +2,38 @@
 2)what is Synchronus and Asynchronus programming?
 
 
+#Javascript can only execute one instruction at a time==>Thats why it is called single threaded.
 
+ex:One GrandMother said his GrandChild to bring 1kg onions,1 Litre Milk Packet,1 Onion Dosa And Droup your sister at School:
+Ans:So He Started executing the things Then he first buyed onions at market.And Went to buy milk at Dairy.And next he went to hotel to buy Onion Dosa here he faced real problem,there was so crowd so he said to owner please make my dosa i drop my sister and i will comeback the owner said no please until you turn.After 20 min he took his Dosa and went to scholl to Drop his child.
+
+Synchronus programming
+==>Synchronous programming means that tasks are executed sequentially ,one after other.
+
+Asynchronus programming
+==>Program can continue running while waiting for other tasks to complete
+==>Asysnchronous operations are managed using callbacks,promises or async/await 
+
+ 
+
+
+
+Comments:
+ ==>//comments are used to explain the code and make it more readable for other developers who may read the code in the future. They are ignored by the JavaScript engine and do not affect the execution of the code.
+Two types of comments in JavaScript
+//1. Single line comment ==>//
+//2. Multi line comment ==>/* */
+
+
+
+
+
+Javascript is dynamically language:
+==>>in java if we assingn a number to a variable .when we want to reassign .we can re assign only the same data type -It is statically language.
+==>in Javascript the we can reassign with different data tyoes also.
+
+
+
+
+
+Javascript is a high-level,dynamic and interpreted programming language that is primarily used to create iteractive web application

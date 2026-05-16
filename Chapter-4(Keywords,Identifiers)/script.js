@@ -16,6 +16,8 @@ console.log(`Total Amount`, totalAmount);
 // We can only declare and initialize the value once. 
 // If we try to reassign the value of a const variable, it will throw an error. 
 //Var is function scoped and can be redeclared and updated.
+
+
 let rahul = 10;
 rahul = 20;
 const pi = 3.14;

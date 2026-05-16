@@ -12,4 +12,4 @@ console.log(window);
 
 console.log(this);
 
-//windows==this: botha are global variables
+//windows==this: both  are global variables
