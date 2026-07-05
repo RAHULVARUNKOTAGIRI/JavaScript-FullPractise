@@ -79,13 +79,9 @@ delete student4.gender;
 console.log(student4);
 
 
-
-
-
-
-
 let fullName = "suresh yadam";
 console.log(fullName);
 
 console.log(fullName.toUpperCase);
 //When you try to access a method or property on a primitive(like calling .toUpperCase() on a string),Javascript internally wraps the primitive ina corresponding built-in-object for the duration of the operation
+
