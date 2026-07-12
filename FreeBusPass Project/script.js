@@ -23,6 +23,9 @@ document.addEventListener("DOMContentLoaded", function () {
           feedback = feedback + " Has Aadhar card.";
           let confirmmsg = confirm("Are you sure Do you want to come inside the bus");
           console.log(confirmmsg);
+          if(confirmmsg){
+            alert("Please open the door");
+          }
         } else {
           console.log("No Aadhar card");
           feedback = "Seat is available, aged above 50, but you don't have Aadhar card.";

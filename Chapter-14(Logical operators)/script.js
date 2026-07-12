@@ -32,18 +32,7 @@ if(result1){
   console.log("Good");
 }//0
 
-let math = 27;
-let social = 32;
-let science = 23;
-let telugu = 46;
-let english = 29;
 
-
-if(math>=35 && social>=35 && science>=35 && telugu >=35 && english>=35){
-  console.log("you can bu the cycle");
-}else{
-  console.log("you failed in all the subjects");
-}
 
 
 
@@ -53,6 +42,22 @@ if(math>=35 && social>=35 && science>=35 && telugu >=35 && english>=35){
 ==>For each operand ,converts it to boolean .if the result is true,stops and returns the orginal value of that operand
 ==>if all the operands have been evaluated (returned false),returns the last operand
 */
+let math = 27;
+let social = 32;
+let science = 23;
+let telugu = 46;
+let english = 29;
+
+
+if(math>=35 || social>=35 || science>=35 || telugu >=35 || english>=35){
+  console.log("you can buy the cycle");
+}else{
+  console.log("you failed in all the subjects");
+}
+
+
+
+
 let result2 = 100||80||10||"suresh"||0;
 console.log("result",result2);//100
 if(result){

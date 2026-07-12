@@ -11,7 +11,7 @@ console.log("exponentiation",num1**num2);
 
 //Another program
 let a = 10;
-let b = 3;
+let b = 3;c
 console.log("a+b",a+b);
 console.log("a-b",a-b);
 console.log("a*b",a*b);

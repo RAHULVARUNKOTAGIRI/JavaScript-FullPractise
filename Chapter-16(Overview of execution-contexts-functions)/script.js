@@ -104,7 +104,7 @@ function thankYouMessage(name,age){
     console.log(`{name},You need to wait for ${18-age} more years to getdriving license`)
   }
 
-  console.log(`Current tiotal age is:${currentTotalAge}`)
+  console.log(`Current total age is:${currentTotalAge}`)
   console.log("Thankyou for answering");
   if(eligibleForDL){
   console.log("Please subscribe to our channel");

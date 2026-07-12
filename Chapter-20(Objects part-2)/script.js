@@ -10,12 +10,12 @@ wish();
 
 
 let student = {
-  name:fullName,//we can assign a already defined variable aslo as value
+  name:fullName,//we can assign a already defined variable also as value 
   phone:8399980,
   address:"Kanchikacherla,Andhra pradesh",
   wish:function(){
     console.log(wish);
-    console.log(`Happy birthday ${this.name}`);
+    console.log(`Happy birthday ${this.name}`);//here this is used to refer the current object,It do's only in object.
     console.log("Read Properly");
   },
 }
@@ -40,7 +40,9 @@ console.log(window)
 alert(100);//it converted into string
 alert(true)//it converted into string
 
-alert(student);// it print onject-object;
+
+//To convert the object into string we can use JSON.stringify() method which will convert the object into string representation of the object.
+alert(student);// it print object-object;
 alert(JSON.stringify(student));//it will show all the properties of object
 
 
@@ -72,5 +74,45 @@ const funObject = {
 };
 console.log(funObject);//in objects we can use the reserved words as key also.
 
+//If the property name contains spaces,hyphens,or other special characters,you must use square bracket notation.
+//Dot notation doesnt support property names that begin with numbers.
 //console.log(funObject.1)we cant use dot property here 
 console.log(funObject[1])
+
+
+const key = prompt = ("Enter which key you want? name or age ?");
+console.log(key);
+
+const person = {
+  name: "Alice",
+  age: 25,
+};
+
+console.log(person[key]);
+
+
+
+
+
+
+
+
+
+//Short hand property
+const name1 = "Dhoni";
+const age1 = 42;
+const role = "captain";
+
+/*
+const player = {
+  name1:name1,
+  age1: age1,
+  role:role,
+};
+*/ //if both key and values names are same means we can simply write like below
+const player = {
+  name1,
+  age1,
+  role,
+}
+console.log(player);

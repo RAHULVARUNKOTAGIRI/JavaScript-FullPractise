@@ -30,7 +30,7 @@ Two types of comments in JavaScript
 
 Javascript is dynamically language:
 ==>>in java if we assingn a number to a variable .when we want to reassign .we can re assign only the same data type -It is statically language.
-==>in Javascript the we can reassign with different data tyoes also.
+==>in Javascript the we can reassign with different data types also.
 
 
 
