@@ -59,14 +59,14 @@ let title = "JavaScript";
 let price = 300;
 let noOfpages = 200;
 let author = "Rahul";
-// these all give eeror because we are trying to access the variables before declaring them.
+// these all give error because we are trying to access the variables before declaring them.
 //we can access the variables declared with 'var'
 
 //Constructor function for creating objects
 class Book {
   static author = "Rahul"; //static variable is shared among all the instances of the class. It is not tied to any specific instance of the class. It can be accessed using the class name.
   constructor(title, price, nPages) {
-    this.title = title;
+    this.title = title;//==>instance variables
     this.price = price;
     this.noOfPages = nPages;
   }

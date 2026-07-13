@@ -23,3 +23,9 @@ console.log(`Rahul's Amount: ${rahulAmount}`);
 console.log(`Total Amount: ${ramuAmount + rahulAmount}`);
 
 // to make expression executable in string we can use template literals which are enclosed in backticks `` and we can embed expressions inside ${}.
+
+
+//==>single line comments are used to add single line comments in the code. They are ignored by the JavaScript engine and do not affect the execution of the code.
+/* 
+Multi Line Comments are used to add comments that span multiple lines. They are also ignored by the JavaScript engine and do not affect the execution of the code.
+*/

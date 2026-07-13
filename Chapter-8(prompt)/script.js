@@ -1,4 +1,5 @@
- /*let username = prompt("What is your name?"); // it will show a prompt box to the user and ask for input and store that input in the variable username
+ /*
+ let username = prompt("What is your name?"); // it will show a prompt box to the user and ask for input and store that input in the variable username
  console.log(username); // it will print the value
  console.log(`Welcome,${username}.please enjoy the course`);
 

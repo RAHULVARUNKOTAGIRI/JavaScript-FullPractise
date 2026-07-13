@@ -1,3 +1,5 @@
+//Any operation on NaN results into NaN
+
 let num1 =2
 let num2 =3
 console.log("Addittion",num1+num2);
@@ -11,13 +13,13 @@ console.log("exponentiation",num1**num2);
 
 //Another program
 let a = 10;
-let b = 3;c
-console.log("a+b",a+b);
-console.log("a-b",a-b);
-console.log("a*b",a*b);
-console.log("a/b",a/b);
-console.log("a%b",a%b);
-console.log("a**b",a**b);
+let b = 3;
+console.log("a+b",a+b);//13
+console.log("a-b",a-b);//7
+console.log("a*b",a*b);//30
+console.log("a/b",a/b);//3.3333333333333335
+console.log("a%b",a%b);//1
+console.log("a**b",a**b);//1000
 console.log((a+b)**(1/2)); // it will give the square root of the sum of a and b
 console.log((a+b+11)**(1/3)); // it will give the cube root of the sum of a, b, and 11
 console.log((a+b)**(1/4)); // it will give the fourth root of the sum of a and b

@@ -16,6 +16,7 @@ let myvalue = null;
 let bigValue = 500n;
 let s1 = Symbol("id");
 
+console.log("<====String Conversions===>");
 console.log("marks",marks);
 console.log("firstName",firstName);
 console.log("cash",cash);
@@ -36,6 +37,7 @@ let myvalueStr = String(myvalue);
 let bigValueStr = String(bigValue);
 let s1Str = String(s1);
 
+console.log("<====String Conversions===>");
 console.log("marksStr",marksStr);
 console.log("firstNameStr",firstNameStr);
 console.log("cashStr",cashStr);
@@ -60,17 +62,19 @@ let myvalueNum = Number(myvalue);
 let bigValueNum = Number(bigValue);
 //let s1Num = Number(s1);
 
+
+console.log("<====Number Conversions===>");
 console.log("marksNum",marksNum);
 console.log("firstNameNum",firstNameNum);// it will print NaN because "suresh" is not a valid number
 console.log("cashNum",cashNum);
-console.log("emptyStringNum",emptyStringNum);
+console.log("emptyStringNum",emptyStringNum);//it will print 0
 console.log("isPassedNum",isPassedNum);// it will print 1 because true is converted to 1 and false is converted to 0
 console.log("resultNum",resultNum);// it will print NaN because undefined is not a valid number
 console.log("myvalueNum",myvalueNum);// it will print 0 because null is converted to 0
 console.log("bigValueNum",bigValueNum);// it will print 500 because bigInt can be converted to number if it is within the range of number
 //console.log("s1Num",s1Num);// it will print NaN because symbol cannot be converted to a number
 
-
+console.log("<====Number Conversions===>");
 console.log("true", Number(true));
 console.log("false", Number(false));
 console.log("undefined", Number(undefined));// it will print NaN because undefined is not a valid number
@@ -82,7 +86,8 @@ console.log("7 spaces", Number(       ));//it will print 0 because it is conside
 
 //boolean conversion
 //builtin function::Boolean(data)
-//values that are intuitively empty become false when converted to boolean.Intuitevely empty values are0,empty string,undefined,null,NaN
+//values that are intuitively empty become false when converted to boolean.
+// Intuitevely empty values are 0,empty string,undefined,null,NaN.
 
 let marksBool = Boolean(marks);
 let firstNameBool = Boolean(firstName);
@@ -94,11 +99,11 @@ let myvalueBool = Boolean(myvalue);
 let bigValueBool = Boolean(bigValue);
 let s1Bool = Boolean(s1);
 
-
+console.log("<====Boolean Conversions===>");
 console.log("marksBool",marksBool);
 console.log("firstNameBool",firstNameBool);
 console.log("cashBool",cashBool);
-console.log("emptyStringBool",emptyStringBool);
+console.log("emptyStringBool",emptyStringBool);//it will print false because empty string is considered as intuitively empty value
 console.log("isPassedBool",isPassedBool);
 console.log("resultBool",resultBool);
 console.log("myvalueBool",myvalueBool);

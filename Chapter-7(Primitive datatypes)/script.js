@@ -114,13 +114,15 @@ console.log(isLoggedOut);//false because the Boolean function without any argume
 
 
 //String data type in JavaScript
-//String is collection of zero or more characters.characters ca be anything
+//String is collection of zero or more characters.characters can be anything
 let myName = `Suresh Yadam ${age}`;//template literals
 console.log(myName);
 
 let myName2 = new String('Suresh Yadam');
 console.log(myName2);//it will print like object representattion of the string.When ever we use the new Keyword u will get the object representation.
 
+let myName1 ='';
+console.log(myName1)//empty string is also a string data type in JavaScript. 
 
 
 
